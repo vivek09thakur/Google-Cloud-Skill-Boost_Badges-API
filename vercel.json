@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "skillboost_api.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "skillboost_api.py" }
+  ]
+}
